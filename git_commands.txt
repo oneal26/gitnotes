@@ -31,6 +31,14 @@ IF YOU TRIGGER VIM WITH GIT DIFF
 ***************
 
 
+git branch |=| Tells you which branch you're on
+git checkout -b BRANCHNAME |=| Creates a new branch named BRANCHNAME and selects it
+git checkout BRANCHNAME |=| Switches you to an exsisting branch named BRANCHNAME
+
+
+
+
+
 
 git remote add origin https://github.comblahblahblah
 
