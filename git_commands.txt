@@ -7,7 +7,7 @@ git init |=| Tells Git to start working.
 
 Git add . |=| Tells me which files I want to save to this commit.
 
-Git commit -m “note about files” |=|
+Git commit -m “note about files” |=| 
 
 
 Git remote add origin https://github.comblahblahblah
