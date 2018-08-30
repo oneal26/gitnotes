@@ -6,25 +6,33 @@ git --version |=| Will tell me what version I'm using.
 git init |=| Tells Git to start working.
 
 
-Git add . |=| Tells me which files I want to save to this commit.
+git add . |=| Tells me which files I want to save to this commit.
 
-Git commit -m “note about files” |=| Saves commit and labels notes. DO NOT FORGET THE LABEL BOIIIII
+git commit -m “note about files” |=| Saves commit and labels notes. DO NOT FORGET THE LABEL BOIIIII
 
 
 ***************
-IF YOU TRIGGER VIM
+IF YOU TRIGGER VIM WITH MISSING COMMIT MESSAGE
 -First: Type "i" to trigger Insert
 -Second: Type the notes in quotes for the commit
 -Third: Hit the esc key to stop Insert
 -Fourth: Type :wq to save the message and escape
 ***************
 
+git status |=| What has changed since last commit, if it's up to date.
+git diff |=| Tells you every line added/subtracted from last change.
+git log |=| lists all commits with IDs and messages
+
+git diff INSERTcomitID1here INSERTcomitID2here |=| Tells difference between two specific commits. Triggers Vim. Cry.
+
+***************
+IF YOU TRIGGER VIM WITH GIT DIFF
+-Type q and hit enter to quit
+***************
 
 
 
+git remote add origin https://github.comblahblahblah
 
-
-Git remote add origin https://github.comblahblahblah
-
-Git push -u origin master
+git push -u origin master
 
