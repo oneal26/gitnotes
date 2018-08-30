@@ -5,11 +5,26 @@ git --version |=| Will tell me what version I'm using.
 
 git init |=| Tells Git to start working.
 
+
 Git add . |=| Tells me which files I want to save to this commit.
 
-Git commit -m “note about files” |=| 
+Git commit -m “note about files” |=| Saves commit and labels notes. DO NOT FORGET THE LABEL BOIIIII
+
+
+***************
+IF YOU TRIGGER VIM
+-First: Type "i" to trigger Insert
+-Second: Type the notes in quotes for the commit
+-Third: Hit the esc key to stop Insert
+-Fourth: Type :wq to save the message and escape
+***************
+
+
+
+
 
 
 Git remote add origin https://github.comblahblahblah
 
 Git push -u origin master
+
